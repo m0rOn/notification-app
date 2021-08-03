@@ -1,0 +1,44 @@
+.main-container {
+    margin: 25px 25px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.split-view {
+    width: 50%;
+}
+
+.grid {
+    max-height: calc(100vh - 156px);
+    overflow: auto;
+    margin-right: -17px;
+    overflow-x: hidden;
+}
+
+.column {
+    width: 20%;
+    border-color: #c12e2a;
+}
+
+.bold {
+    font-weight: bold;
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table tr td {
+    border: 1px solid;
+}

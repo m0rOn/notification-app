@@ -1,0 +1,21 @@
+{
+  "name": "notificaiton-app",
+  "version": "1.0.0",
+  "description": "Simple Notification App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "socket.io": "2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
